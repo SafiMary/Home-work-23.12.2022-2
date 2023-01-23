@@ -25,7 +25,7 @@ MyClass::MyClass( unsigned int indexUser)        //конструктор принимает размер 
 {
 	_index = indexUser;
 	_arr = new int[indexUser];
-}
+}  
 
 MyClass::~MyClass() {         //конструктор удаления динамического массива
 		delete[] _arr;          //удаляем массив
