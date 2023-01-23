@@ -38,4 +38,4 @@ void MyClass::setIndexArr(unsigned int indexUser) {  //сеттер для index устанавл
 	int MyClass::getIndexArr() {                //геттер для index возвращает поле класса
 		return _index;
 	}
-	
+	                
